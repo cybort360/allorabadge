@@ -2,7 +2,7 @@ const upload = document.getElementById('upload');
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const ringImage = new Image();
-ringImage.src = 'images/allora (1).png';
+ringImage.src = 'images/allora.png';
 const preview = document.getElementById('preview');
 
 function drawImageFitted(img) {
