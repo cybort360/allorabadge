@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allora Badge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Allora Badge Generator</h1>
+      <p>Upload your image to get your personalized Allora badge</p>
+    </header>
+
+    <div class="container">
+      <div class="controls">
+        <p>Drag & drop your image here or</p>
+        <input type="file" id="upload" accept="image/*" />
+      </div>
+
+      <canvas id="canvas" width="768" height="768"></canvas>
+
+      <div id="preview-container">
+        <h3>Preview</h3>
+        <img id="preview" src="" alt="Your badge will appear here" />
+      </div>
+
+      <div class="controls">
+        <button id="downloadBtn">Download Badge</button>
+        <button id="tweetBtn">Share on X</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ by the Allora Community and <a target="_blank" href="https://x.com/OctaneXyz">Octane</a></p>
+    </footer>
+
+    <script src="sandbox.js"></script>
+  </body>
+</html>
